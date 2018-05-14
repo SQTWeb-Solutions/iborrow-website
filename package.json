@@ -10,6 +10,10 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/vue-fontawesome": "0.0.22",
     "axios": "^0.18.0",
     "bootstrap": "^4.1.1",
     "feather-icons": "^4.7.0",
@@ -20,7 +24,10 @@
     "vee-validate": "^2.0.9",
     "vue": "^2.5.16",
     "vue-affix": "^0.2.4",
+    "vue-auth-image": "0.0.2",
     "vue-content-placeholders": "^0.2.1",
+    "vue-extend-layout": "^1.0.2",
+    "vue-feather-icon": "^1.2.0",
     "vue-meta": "^1.5.0",
     "vue-router": "^3.0.1",
     "vue-the-mask": "^0.11.1",
