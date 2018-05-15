@@ -4,7 +4,7 @@ module.exports = {
   devServer: {
     open: process.platform === 'darwin',
     host: '0.0.0.0',
-    port: 9010,
+    port: 9020,
     https: false,
     hotOnly: false,
     overlay: true,
@@ -27,7 +27,9 @@ module.exports = {
         $: 'jquery',
         jQuery: 'jquery',
         'window.jQuery': 'jquery',
-        Popper: ['popper.js', 'default']
+        Popper: ['popper.js', 'default'],
+        masonry: 'masonry-layout',
+        WOW: 'wowjs'
       })
     ]
   },
