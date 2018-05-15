@@ -5,7 +5,7 @@ export default [
   {
     path: '/',
     name: 'landing-page',
-    component: require('@/views/Home').default
+    component: require('@/views/Homepage/HomepageView').default
   },
   { path: '*', component: require('@/views/Home').default }
 ]

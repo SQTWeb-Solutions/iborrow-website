@@ -1,14 +1,16 @@
 <template>
   <transition name="page" mode="out-in">
-    <div id="app">
+    <div id="app" class="main-page-wrapper">
       <loading ref="loading"></loading>
       <router-view/>
+      <main-footer></main-footer>
     </div>
   </transition>
 </template>
 
 <script>
 import Loading from '@/components/Loading'
+import MainFooter from '@/components/MainFooter'
 export default {
   name: 'default',
 
@@ -24,7 +26,8 @@ export default {
     }
   },
   components: {
-    Loading
+    Loading,
+    MainFooter
   },
   mounted () {
     this.$loading = this.$refs.loading

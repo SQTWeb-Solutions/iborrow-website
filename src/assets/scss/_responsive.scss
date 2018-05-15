@@ -195,6 +195,8 @@
     .theme-modal-box .modal-content .modal-body {padding-left: 15px;padding-right: 15px;}
 }
 @media (max-width: 500px) {
+  .testimonial-section .main-container .item .wrapper {padding-left: 40px;}
+  .testimonial-section .main-container .item .wrapper p:before {left:-38px;font-size: 30px;top:4px;}
   .testimonial-section .owl-theme .owl-nav {bottom: -50px;}
   .our-blog.blog-v2 .col-xs-6,.shop-page .shop-product-wrapper .col-xs-6 {width: 100%;}
   .blog-details .tag-option ul {float: none;}
