@@ -2,6 +2,7 @@
   <transition name="page" mode="out-in">
     <div id="app" class="main-page-wrapper">
       <loading ref="loading"></loading>
+      <main-header></main-header>
       <router-view/>
       <main-footer></main-footer>
     </div>
@@ -11,6 +12,7 @@
 <script>
 import Loading from '@/components/Loading'
 import MainFooter from '@/components/MainFooter'
+import MainHeader from '@/components/MainHeader'
 export default {
   name: 'default',
 
@@ -27,7 +29,8 @@ export default {
   },
   components: {
     Loading,
-    MainFooter
+    MainFooter,
+    MainHeader
   },
   mounted () {
     this.$loading = this.$refs.loading

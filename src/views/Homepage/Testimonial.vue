@@ -18,10 +18,14 @@
           <h6>Testimonials</h6>
           <h2>What happy people <i>Say about us</i></h2>
         </div>
-        <div class="testimonial-slider">
-          <testimonial-item></testimonial-item>
-          <testimonial-item></testimonial-item>
-        </div>
+        <carousel :scrollPerPage="true" :perPageCustom="[[480, 1], [768, 1], [1024, 1]]">
+          <slide>
+            <testimonial-item></testimonial-item>
+          </slide>
+          <slide>
+            <testimonial-item></testimonial-item>
+          </slide>
+        </carousel>
       </div>
     </div>
   </div>
@@ -33,6 +37,8 @@ export default {
   name: 'testimonial',
   components: {
     TestimonialItem
+  },
+  mounted: () => {
   }
 }
 </script>

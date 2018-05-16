@@ -75,7 +75,7 @@
   .theme-menu-wrapper.fixed .logo,.theme-menu-wrapper.menu-style-two.inner-menu.fixed .logo {-webkit-transform:none;transform:none;top:30px;}
   header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a,
   header.theme-menu-wrapper.fixed #mega-menu-wrapper .nav>li.menu-list>a,
-  header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav>li>a {padding:0;margin: 0 8px;}
+  header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav>li>a {padding:0;margin: 0 8px; display:block;}
   header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before {top:28px;}
   header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a {margin: 10px 0 15px 5px;}
   header.theme-menu-wrapper #mega-menu-wrapper .nav>li.active>a:before,
@@ -124,7 +124,7 @@
 
 @media (max-width: 767px) {
     .theme-menu-wrapper .logo,.theme-menu-wrapper.menu-style-two.inner-menu .logo {left: 15px;}
-    header.theme-menu-wrapper.full-width-menu {padding-left: 15px;padding-right: 15px;}
+    header.theme-menu-wrapper.full-width-menu {padding-left: 15px;padding-right: 15px; padding-bottom:5px;background: #fff;-webkit-box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);-webkit-animation: menu_sticky 0.7s ease-in-out;}
     .what-we-do h3 {font-size: 28px;line-height: 48px;}
     .what-we-do .container>h6 {font-size: 18px;line-height: 30px;margin-bottom: 80px;}
     .what-we-do .single-block .icon.middle-block:before, .what-we-do .single-block .icon.middle-block:after {width: 80%;}
