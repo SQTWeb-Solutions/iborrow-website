@@ -5,8 +5,8 @@
         <h2>Make your business 10x faster <br>on iBorrow.</h2>
         <div class="row">
           <div class="col-12 mt-5">
-            <a href="#" class="btn btn-custom-purple">Become an Investor</a>
-            <a href="#" class="btn btn-custom">Start Borrowing</a>
+            <a :href="applicationUrl" class="btn btn-custom-purple">Become an Investor</a>
+            <a :href="applicationUrl" class="btn btn-custom">Start Borrowing</a>
           </div>
         </div>
       </div> <!-- /.container -->
@@ -16,6 +16,11 @@
 
 <script>
 export default {
-  name: 'short-banner'
+  name: 'short-banner',
+  data () {
+    return {
+      applicationUrl: process.env.VUE_APP_APPLICATION_URL
+    }
+  }
 }
 </script>

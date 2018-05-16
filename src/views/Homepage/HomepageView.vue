@@ -1,29 +1,12 @@
 <template>
 <div class="home">
-  <div style="height: 400px;background: url('images/slide-1.jpg')">
-  HEllo there, here we will be having the slider comonent
-  </div>
+  <home-banner></home-banner>
   <services></services>
   <short-banner></short-banner>
-  <caption></caption>
-  <div class="theme-counter-styleTwo">
-    <div class="container">
-      <ul class="clearfix">
-        <li class="float-left">
-          <p>Total Invest</p>
-          <h2 class="number">$<span class="timer" data-from="0" data-to="86543" data-speed="1000" data-refresh-interval="5">0</span></h2>
-        </li>
-        <li class="float-left">
-          <p>Yearly Reveneu</p>
-          <h2 class="number">$<span class="timer" data-from="0" data-to="16753" data-speed="1000" data-refresh-interval="5">0</span></h2>
-        </li>
-        <li class="float-left">
-          <p>Growth Ratio</p>
-          <h2 class="number"><span class="timer" data-from="0" data-to="73" data-speed="1000" data-refresh-interval="5">0</span>%</h2>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <home-caption></home-caption>
+  <home-counter></home-counter>
+  <home-action></home-action>
+  <active-borrowing></active-borrowing>
   <div class="two-section-wrapper">
     <testimonial></testimonial>
     <partners></partners>
@@ -38,7 +21,11 @@ import Testimonial from './Testimonial'
 import Partners from '@/components/Partners'
 import ShortBanner from './ShortBanner'
 import Services from './Services'
-import Caption from './Caption'
+import HomeCaption from './Caption'
+import HomeCounter from './Counter'
+import HomeAction from './Actions'
+import ActiveBorrowing from './ActiveBorrowing'
+import HomeBanner from './Banner'
 export default {
   name: 'home',
   components: {
@@ -47,7 +34,11 @@ export default {
     Partners,
     ShortBanner,
     Services,
-    Caption
+    HomeCaption,
+    HomeCounter,
+    HomeAction,
+    ActiveBorrowing,
+    HomeBanner
   }
 }
 </script>

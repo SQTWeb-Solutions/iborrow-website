@@ -14,7 +14,7 @@
 /*   08 - Theme Counter  */
 /*   09 - Our Portfolio  */
 /*   10 - Home Service Section  */
-/*   11 - Testimonial  */ 
+/*   11 - Testimonial  */
 /*   12 - Pricing Plan One  */
 /*   13 - Home Blog Section  */
 /*   14 - Footer   */
@@ -70,7 +70,7 @@
   font-size: 25px;
   display: none;
 }
-.scroll-top:after { 
+.scroll-top:after {
   position: absolute;
   z-index: -1;
   content: '';
@@ -79,10 +79,10 @@
   height: 10px;
   width: 90%;
   opacity: 1;
-  
+
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
- 
+
  body {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
@@ -230,7 +230,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before,
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before {top:17px;}
 #mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li a:before {bottom: 14px;}
-header.theme-menu-wrapper #mega-menu-wrapper .nav>li.active>a:before,
+header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a.active:before,
 header.theme-menu-wrapper #mega-menu-wrapper .nav>li:hover>a:before,
 #mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li:hover>a:before,
 #mega-menu-wrapper .nav>li.dropdown-holder .sub-menu .second-sub-menu>li>a:hover:before {
@@ -586,7 +586,6 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .banner-two h5 {font-weight: normal;}
 .banner-two h1 {
   line-height: 75px;
-  color: #fff;
   margin:25px 0 55px 0;
 }
 .banner-two .watch-video {
@@ -595,21 +594,18 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
           transform:rotate(-90deg);
   padding-left: 110px;
 }
-.banner-two .watch-video h6 {color: #fff;}
 .banner-two .watch-video h4 {
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
   margin-top: 7px;
 }
 .banner-two .watch-video a {
   width: 70px;
   height: 70px;
   text-align: center;
-  border: 2px solid #fff;
+  border: 2px solid #999;
   line-height: 66px;
   border-radius: 50%;
-  color: #fff;
   font-size: 20px;
   position: absolute;
   left:2px;
@@ -730,6 +726,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .what-we-do {
   text-align: center;
   padding-bottom: 35px;
+  padding-top:35px;
 }
 .what-we-do h3 {
   font-family: 'Lato', sans-serif;
@@ -893,7 +890,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   margin: 5px 0 40px 0;
 }
 /*------------------------ Our Portfolio ----------------------*/
-.our-portfolio {padding: 180px 0 200px 0;}
+.our-portfolio {padding: 50px 0 70px 0;}
 .our-portfolio .theme-title:before {
   content: 'C';
   font-size: 300px;
@@ -921,7 +918,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .our-portfolio .theme-title a:hover {color: #fff;}
 .our-portfolio .wrapper {
   padding: 0 35px;
-  margin-top: 130px;
+  margin-top: 70px;
 }
 .our-portfolio .wrapper .image img {
   width: 100%;
@@ -1446,10 +1443,10 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 }
 .business-statics .statics svg.fa-meh path {
   fill: #ff4052;
-} 
+}
 .business-statics .statics svg.fa-smile path {
   fill: #0dee67;
-} 
+}
 .business-statics .statics p {
   font-size: 18px;
   font-weight: 500;
@@ -1518,7 +1515,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   margin-top: 24px;
 }
 .home-project .single-project-wrapper .content a i {
-  margin-left: 8px; 
+  margin-left: 8px;
   opacity: 0.4;
   vertical-align: -1px;
 }
@@ -1556,16 +1553,16 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 /*----------------------- End Hone Three Version -------------------*/
 /*------------------ Theme Inner Banner -----------------*/
 .inner-page-banner {
-  background: url(../images/inner-page/banner.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../images/inner-page/banner.jpg) no-repeat center center;
+  background-size: auto;
   background-attachment: fixed;
   position: relative;
-  margin-bottom: 190px;
+  margin-bottom: 80px;
 }
 .inner-page-banner .opacity {
   text-align: center;
-  background: rgba(0,0,10,0.55);
-  padding: 305px 0 210px 0;
+  background: rgba(0,0,10,0.2);
+  padding: 150px 0 100px 0;
 }
 .inner-page-banner .opacity h1 {
   color: #fff;
@@ -1796,7 +1793,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   background: rgba(46,93,88,0.8);
   padding: 50px 20px 50px 20px;
 }
-.service-version-two .single-service:hover .image-box .opacity {opacity: 1;} 
+.service-version-two .single-service:hover .image-box .opacity {opacity: 1;}
 .service-version-two .single-service .image-box .opacity p {
   line-height: 24px;
   font-weight: 300;

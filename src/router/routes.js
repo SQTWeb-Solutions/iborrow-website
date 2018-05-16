@@ -7,6 +7,15 @@ export default [
     name: 'landing-page',
     component: require('@/views/Homepage/HomepageView').default
   },
+  {
+    path: '/company/about',
+    name: 'about-page',
+    component: require('@/views/About/AboutView').default,
+    meta: {
+      white: true
+    }
+  },
+  // TODO: Fixe error page
   { path: '*', component: require('@/views/Home').default }
 ]
 

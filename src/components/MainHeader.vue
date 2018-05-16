@@ -1,5 +1,5 @@
 <template>
-  <header class="theme-menu-wrapper full-width-menu" :class="{ 'fixed': sticky }">
+  <header class="theme-menu-wrapper full-width-menu" :class="{ 'fixed': sticky, 'bg-white': this.$route.meta.white }">
     <div class="header-wrapper">
       <div class="clearfix">
         <div class="logo float-left tran4s"><a href="/"><img src="@/assets/images/logo/logo_50px.png" alt="Logo"></a></div>
@@ -48,9 +48,9 @@
                   <li><a href="#">How it works</a></li>
                 </ul>
               </li>
-              <li class="dropdown-holder menu-list"><a href="#" class="tran3s">Company</a>
+              <li class="dropdown-holder menu-list"><router-link :to="{ name: 'about-page' }" tag="a" class="tran3s">Company</router-link>
                 <ul class="sub-menu">
-                  <li><a href="#">About iBorrow</a></li>
+                  <li><router-link :to="{ name: 'about-page' }" tag="a">About iBorrow</router-link></li>
                   <li><a href="#">Why iBorrow</a></li>
                   <li><a href="#">Advisory Board</a></li>
                   <li><a href="#">Contact Us</a></li>
