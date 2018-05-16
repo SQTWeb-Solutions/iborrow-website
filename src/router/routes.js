@@ -15,6 +15,14 @@ export default [
       white: true
     }
   },
+  {
+    path: '/contact-us',
+    name: 'contact-page',
+    component: require('@/views/Contact/ContactView').default,
+    meta: {
+      white: true
+    }
+  },
   // TODO: Fixe error page
   { path: '*', component: require('@/views/Home').default }
 ]

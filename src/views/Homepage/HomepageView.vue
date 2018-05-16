@@ -17,13 +17,13 @@
 
 <script>
 import HomeNews from './HomeNews'
-import Testimonial from './Testimonial'
+import Testimonial from '@/components/Testimonial'
 import Partners from '@/components/Partners'
 import ShortBanner from './ShortBanner'
 import Services from './Services'
 import HomeCaption from './Caption'
-import HomeCounter from './Counter'
-import HomeAction from './Actions'
+import HomeCounter from '@/components/Counter'
+import HomeAction from '@/components/Actions'
 import ActiveBorrowing from './ActiveBorrowing'
 import HomeBanner from './Banner'
 export default {

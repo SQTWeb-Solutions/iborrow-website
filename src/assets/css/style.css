@@ -1553,7 +1553,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 /*----------------------- End Hone Three Version -------------------*/
 /*------------------ Theme Inner Banner -----------------*/
 .inner-page-banner {
-  background: url(../images/inner-page/banner.jpg) no-repeat center center;
+  background: url(../images/inner-page/banner.jpg) no-repeat top center;
   background-size: auto;
   background-attachment: fixed;
   position: relative;
@@ -1564,7 +1564,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   background: rgba(0,0,10,0.2);
   padding: 150px 0 100px 0;
 }
-.inner-page-banner .opacity h1 {
+.inner-page-banner .opacity h2 {
   color: #fff;
   text-transform: capitalize;
 }
@@ -1572,9 +1572,9 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   display: inline-block;
   font-weight: 500;
   font-size: 18px;
-  margin: 40px 2px 0 2px;
+  margin: 20px 2px 0 2px;
   text-transform: uppercase;
-  color: #929292;
+  color: #ccc;
   letter-spacing: 1.1px;
 }
 .inner-page-banner .opacity ul li a {color: #fff;}
@@ -1588,7 +1588,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 }
 .about-text .title h2 {
   line-height: 60px;
-  margin: 25px 0 100px 0;
+  margin: 25px 0 70px 0;
 }
 .about-text .about-tab-wrapper {
   width: 65%;

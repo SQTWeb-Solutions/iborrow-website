@@ -1,7 +1,7 @@
 <template>
 <div class="inner-page-banner">
   <div class="opacity">
-    <h1>{{title}}</h1>
+    <h2>{{title}}</h2>
     <ul>
       <li><router-link :to="{ name: 'landing-page' }" tag="a">Home</router-link></li>
       <li>/</li>

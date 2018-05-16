@@ -5,44 +5,48 @@
     <div class="container">
       <div class="title">
         <h6>WELCOME TO iBorrow</h6>
-        <h2>We’r a dynamic team of creatives people <br>innovation &amp; Marketing Expert.</h2>
+        <h2>We’r alternative investment option to Investors and<br> affordable personal loans to Borrowers</h2>
       </div>
-      <img src="images/inner-page/1.jpg" alt="">
+      <img src="@/assets/images/inner-page/1.jpg" alt="iBorrow Team">
       <div class="about-tab-wrapper clearfix">
-        <ul class="nav nav-tabs float-left">
-          <li class="active"><a data-toggle="tab" href="#history">Our History</a></li>
-          <li><a data-toggle="tab" href="#vision">Vision</a></li>
-          <li><a data-toggle="tab" href="#contact">Contact Us</a></li>
-          <li><a data-toggle="tab" href="#news">News</a></li>
-        </ul>
-        <div class="tab-content float-left">
-          <div id="history" class="tab-pane fade in active">
-              <p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
-              <img src="images/home/sign.png" alt="">
-          </div> <!-- /#history -->
-            <div id="vision" class="tab-pane fade">
-              <p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
-            </div> <!-- /#vision -->
-            <div id="contact" class="tab-pane fade">
-              <p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
-            </div> <!-- /#contact -->
-            <div id="news" class="tab-pane fade">
-              <p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
-            </div> <!-- /#news -->
-        </div>
-      </div> <!-- /.about-tab-wrapper -->
-    </div> <!-- /.container -->
+        <h3 class="text-center mb-3">About iBorrow</h3>
+        <p>Folly was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible.</p>
+        <h3 class="text-center mt-5 mb-3">Our History</h3>
+        <p>Folly was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible.</p>
+        <img src="@/assets/images/home/sign.png" alt="Signature">
+
+      </div>
+    </div>
   </div>
 
+  <home-counter></home-counter>
+  <home-action></home-action>
+  <div class="two-section-wrapper">
+    <testimonial></testimonial>
+    <partners></partners>
+  </div>
 </div>
 </template>
 
 <script>
 import Breadcrumb from '@/components/Breadcrumb'
+import HomeCounter from '@/components/Counter'
+import HomeAction from '@/components/Actions'
+import Testimonial from '@/components/Testimonial'
+import Partners from '@/components/Partners'
 export default {
   name: 'about',
   components: {
-    Breadcrumb
+    Breadcrumb,
+    Testimonial,
+    Partners,
+    HomeCounter,
+    HomeAction
+  },
+  metaInfo () {
+    return {
+      title: 'About iBorrow'
+    }
   }
 }
 </script>

@@ -6,7 +6,7 @@
           <use xlink:href="#shape-one" />
         </clipPath>
         <g clip-path="url(#shape-one)">
-          <image width="854" height="630" href="images/5.jpg" class="image-shape">
+          <image width="854" height="630"  :href="`${baseUrl}images/5.jpg`" class="image-shape">
           </image>
         </g>
       </svg>
@@ -35,6 +35,11 @@
 import TestimonialItem from '@/components/TestimonialItem'
 export default {
   name: 'testimonial',
+  data () {
+    return {
+      baseUrl: process.env.BASE_URL
+    }
+  },
   components: {
     TestimonialItem
   },

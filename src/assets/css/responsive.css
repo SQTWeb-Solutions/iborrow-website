@@ -1,13 +1,13 @@
 /* Responsive CSS Document */
 
-/* 
+/*
     Created on   : 24/09/2017.
     Theme Name   : Gullu.
     Description  : Gullu - Agency & Startup HTML Template
     Version      : 1.0.
     Author       : @CreativeGigs.
     Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-   
+
 */
 
 @media (min-width: 992px) {
@@ -109,13 +109,13 @@
   .project-details-wrapper .project-info-list {padding-right: 0;}
   .portfolio-details .title ul {position: static;margin-top: 20px;}
   .banner-one .image-shape-one,.banner-one .image-shape-two {display: none;}
-} 
+}
 /*(max-width: 991px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
   .what-we-do .single-block .icon.middle-block:before, .what-we-do .single-block .icon.middle-block:after {display: none;}
   .theme-counter p,.what-we-do .container>h6 {font-size: 18px;}
-  .inner-page-banner .opacity {padding: 250px 0 150px 0;}
+  .inner-page-banner .opacity {padding: 180px 0 80px 0;}
   .blog-details .blog-main-post h2 {padding-right: 0;}
   .banner-two h1,.banner-three .container h1 {font-size: 55px;}
   .blog-masonary .grid-sizer, .blog-masonary .grid-item {width: 50%;}

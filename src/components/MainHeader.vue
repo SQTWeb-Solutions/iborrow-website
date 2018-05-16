@@ -53,7 +53,7 @@
                   <li><router-link :to="{ name: 'about-page' }" tag="a">About iBorrow</router-link></li>
                   <li><a href="#">Why iBorrow</a></li>
                   <li><a href="#">Advisory Board</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><router-link :to="{ name: 'contact-page' }">Contact Us</router-link></li>
                 </ul>
               </li>
               <li class="login-button"><a :href="applicationUrl" class="tran3s">login</a></li>
