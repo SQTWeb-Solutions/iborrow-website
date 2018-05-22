@@ -11,7 +11,7 @@ module.exports = {
     useLocalIp: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: process.env.VUE_APP_PROXY_URL,
         ws: true,
         pathRewrite: {'^/api': ''},
         changeOrigin: true

@@ -1,8 +1,12 @@
 {
   "name": "iborrow-website",
-  "version": "0.1.0",
+  "version": "1.0.101",
+  "keywords": [],
+  "author": "Quadri Adekunle (abiodunquadriadekunle@gmail.com)",
+  "license": "ISC",
   "private": true,
   "scripts": {
+    "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -16,6 +20,7 @@
     "@fortawesome/vue-fontawesome": "0.0.22",
     "axios": "^0.18.0",
     "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
     "feather-icons": "^4.7.0",
     "jquery": "^3.3.1",
     "jquery-match-height": "^0.7.2",
@@ -24,6 +29,7 @@
     "masonry-layout": "^4.2.1",
     "owl.carousel": "^2.3.4",
     "popper.js": "^1.14.3",
+    "server-static": "^2.0.5",
     "vee-validate": "^2.0.9",
     "vue": "^2.5.16",
     "vue-affix": "^0.2.4",
@@ -66,13 +72,13 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "vue-cli-service lint",
-      "git add"
-    ],
-    "*.vue": [
-      "vue-cli-service lint",
-      "git add"
-    ]
+    // "*.js": [
+    //   "vue-cli-service lint",
+    //  "git add"
+    // ],
+    // "*.vue": [
+    //  "vue-cli-service lint",
+    //  "git add"
+    // ]
   }
 }
