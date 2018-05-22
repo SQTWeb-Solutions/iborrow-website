@@ -5,11 +5,11 @@ module.exports = {
     '@vue/standard'
   ],
   "globals": {
-        "$": true,
-        "JQuery": true,
-        "jQuery": true,
-        "WOW": true,
-        "masonry": true,
-        "riples": true
-    }
+    "$": true,
+    "JQuery": true,
+    "jQuery": true,
+    "WOW": true,
+    "masonry": true,
+    "riples": true
+  }
 }
