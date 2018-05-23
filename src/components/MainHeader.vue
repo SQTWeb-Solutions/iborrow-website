@@ -34,7 +34,7 @@
                   <li><a href="#">Active Investors</a></li>
                   <li><a href="#">Business Opportunity</a></li>
                   <li><router-link :to="{ name: 'why-invest' }">Why Invest</router-link></li>
-                  <li><a href="#">How it works</a></li>
+                  <li><router-link :to="{ name: 'how-it-works' }">How it works</router-link></li>
                   <li><a href="#">Terms of use</a></li>
                   <li><a href="#">FAQs</a></li>
                 </ul>

@@ -1612,11 +1612,10 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   padding: 0;
   line-height: 58px;
 }
-.about-text .about-tab-wrapper .nav-tabs > li.active > a,
-.about-text .about-tab-wrapper .nav-tabs > li.active > a:hover,
-.about-text .about-tab-wrapper .nav-tabs > li.active > a:focus {color: #000;}
+.about-text .about-tab-wrapper .nav-tabs > li > a.active,
+.about-text .about-tab-wrapper .nav-tabs > li > a.active:hover,
+.about-text .about-tab-wrapper .nav-tabs > li > a.active:focus {color: #000;}
 .about-text .about-tab-wrapper .tab-content {
-  width: calc(100% - 160px);
   padding: 12px 0 0 20px;
 }
 .about-text .about-tab-wrapper .tab-content p {
