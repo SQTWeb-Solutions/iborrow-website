@@ -16,6 +16,44 @@ export default [
     }
   },
   {
+    path: '/why',
+    component: require('@/views/Why/Template').default,
+    children: [
+      {
+        path: '',
+        name: 'why-iborrow',
+        component: require('@/views/Why/WhyView').default,
+        meta: {
+          white: true
+        }
+      },
+      {
+        path: 'borrow',
+        name: 'why-borrow',
+        component: require('@/views/Why/WhyBorrowView').default,
+        meta: {
+          white: true
+        }
+      },
+      {
+        path: 'invest',
+        name: 'why-invest',
+        component: require('@/views/Why/WhyInvestView').default,
+        meta: {
+          white: true
+        }
+      }
+    ]
+  },
+  {
+    path: '/how-it-works',
+    component: require('@/views/How/HowView').default,
+    name: 'how-it-works',
+    meta: {
+      white: true
+    }
+  },
+  {
     path: '/contact-us',
     name: 'contact-page',
     component: require('@/views/Contact/ContactView').default,
@@ -23,8 +61,13 @@ export default [
       white: true
     }
   },
-  // TODO: Fixe error page
-  { path: '*', component: require('@/views/Home').default }
+  {
+    path: '*',
+    component: require('@/views/Error/NotFoundView').default,
+    meta: {
+      white: true
+    }
+  }
 ]
 
 /**

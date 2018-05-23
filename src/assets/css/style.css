@@ -1733,10 +1733,10 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
           transform:translateY(-50%);
 }
 /*----------------------- Our Service Version One -----------------------*/
-.service-version-one {padding-bottom: 130px;}
+.service-version-one {padding-bottom: 30px;}
 .service-version-one h2 {
   line-height: 55px;
-  margin-bottom: 110px;
+  margin-bottom: 70px;
 }
 .service-version-one .single-service i {
   display: block;
@@ -1836,12 +1836,9 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   font-weight: 500;
   font-size: 20px;
   color: rgba(0,0,10,0.3);
-  margin-top: 165px;
 }
 .service-version-two .single-service .text h2 {
-  font-size: 72px;
-  line-height: 80px;
-  margin: 25px 0 10px 0;
+  margin: 20px 0 10px 0;
 }
 .service-version-two .single-service .text a {
   font-size: 30px;

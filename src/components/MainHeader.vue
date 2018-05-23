@@ -22,8 +22,8 @@
                   <li><a href="#">Apply for Loan</a></li>
                   <li><a href="#">Active Borrowers</a></li>
                   <li><a href="#">Business Opportunity</a></li>
-                  <li><a href="#">Why Borrow</a></li>
-                  <li><a href="#">How it works</a></li>
+                  <li><router-link :to="{ name: 'why-borrow' }">Why Borrow</router-link></li>
+                  <li><router-link :to="{ name: 'how-it-works' }">How it works</router-link></li>
                   <li><a href="#">Terms of use</a></li>
                   <li><a href="#">FAQs</a></li>
                 </ul>
@@ -33,7 +33,7 @@
                   <li><a href="#">Start Investing</a></li>
                   <li><a href="#">Active Investors</a></li>
                   <li><a href="#">Business Opportunity</a></li>
-                  <li><a href="#">Why Invest</a></li>
+                  <li><router-link :to="{ name: 'why-invest' }">Why Invest</router-link></li>
                   <li><a href="#">How it works</a></li>
                   <li><a href="#">Terms of use</a></li>
                   <li><a href="#">FAQs</a></li>
@@ -51,7 +51,7 @@
               <li class="dropdown-holder menu-list"><router-link :to="{ name: 'about-page' }" tag="a" class="tran3s">Company</router-link>
                 <ul class="sub-menu">
                   <li><router-link :to="{ name: 'about-page' }" tag="a">About iBorrow</router-link></li>
-                  <li><a href="#">Why iBorrow</a></li>
+                  <li><router-link :to="{ name: 'why-iborrow' }">Why iBorrow</router-link></li>
                   <li><a href="#">Advisory Board</a></li>
                   <li><router-link :to="{ name: 'contact-page' }">Contact Us</router-link></li>
                 </ul>

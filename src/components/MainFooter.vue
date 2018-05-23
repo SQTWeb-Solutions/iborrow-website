@@ -13,22 +13,21 @@
             <div class="col-md-3 col-sm-6 col-xs-12 footer-list">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="#" class="tran3s">Benefits on iBorrow</a></li>
-                    <li><a href="#" class="tran3s">How we Works</a></li>
+                    <li><router-link :to="{ name: 'why-iborrow' }" class="tran3s">Why iBorrow</router-link></li>
+                    <li><router-link :to="{ name: 'how-it-works' }" class="tran3s">How it Works</router-link></li>
                     <li><a href="#" class="tran3s">FAQs</a></li>
                     <li><a href="#" class="tran3s">Legal Terms</a></li>
                     <li><a href="#" class="tran3s">Policies</a></li>
-                    <li><router-link :to="{ name: 'contact' }" class="tran3s">Contact Us</router-link></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 footer-list">
                 <h4>Company</h4>
                 <ul>
                     <li><router-link :to="{ name: 'about-page' }" tag="a" class="tran3s">About iBorrow</router-link></li>
-                    <li><a href="#" class="tran3s">Why iBorrow</a></li>
                     <li><a href="#" class="tran3s">Advisory Board</a></li>
                     <li><a href="#" class="tran3s">Testimonials</a></li>
                     <li><a href="#" class="tran3s">News & Blog</a></li>
+                    <li><router-link :to="{ name: 'contact-page' }" class="tran3s">Contact Us</router-link></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 footer-subscribe">

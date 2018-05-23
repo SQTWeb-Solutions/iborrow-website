@@ -3,7 +3,7 @@
   <div class="container">
     <div class="theme-title text-center">
       <h6>Our News</h6>
-      <h2>News from iBorrw</h2>
+      <h2>News from iBorrow</h2>
     </div>
     <div class="row">
       <div class="col-md-6 col-xs-12">
