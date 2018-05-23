@@ -13,7 +13,7 @@
     </div>
     <div class="theme-shape-four"></div>
     <div class="container">
-      <div class="main-container col-md-6 offset-md-6">
+      <div class="main-container col-lg-6 offset-lg-6">
         <div class="theme-title">
           <h6>Testimonials</h6>
           <h2>What happy people <i>Say about us</i></h2>
