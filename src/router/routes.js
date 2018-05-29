@@ -46,9 +46,31 @@ export default [
     ]
   },
   {
+    path: 'blog',
+    component: require('@/views/Blog/Template').default,
+    children: [
+      {
+        path: '',
+        name: 'blog',
+        component: require('@/views/Blog/BlogPage').default,
+        meta: {
+          white: true
+        }
+      }
+    ]
+  },
+  {
     path: '/how-it-works',
     component: require('@/views/How/HowView').default,
     name: 'how-it-works',
+    meta: {
+      white: true
+    }
+  },
+  {
+    path: '/policies',
+    component: require('@/views/Policies/PoliciesView').default,
+    name: 'policies',
     meta: {
       white: true
     }

@@ -41,11 +41,11 @@
               </li>
               <li class="dropdown-holder menu-list"><a href="#" class="tran3s">Knowledege Center</a>
                 <ul class="sub-menu">
-                  <li><a href="#">News & Blog</a></li>
+                  <li><router-link :to="{ name: 'blog' }">News & Blog</router-link></li>
                   <li><a href="#">FAQs</a></li>
                   <li><a href="#">Terms of use</a></li>
-                  <li><a href="#">Policies</a></li>
-                  <li><a href="#">How it works</a></li>
+                  <li><router-link :to="{ name: 'policies' }">Policies</router-link></li>
+                  <li><router-link :to="{ name: 'how-it-works' }">How it works</router-link></li>
                 </ul>
               </li>
               <li class="dropdown-holder menu-list"><router-link :to="{ name: 'about-page' }" tag="a" class="tran3s">Company</router-link>

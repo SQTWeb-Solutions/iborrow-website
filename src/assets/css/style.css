@@ -103,7 +103,7 @@
  h4 {font-size: 24px; font-weight: 500;}
  h5 {font-size: 22px; font-weight: 500;}
  h6 {font-size: 20px; font-weight: normal;}
- p {line-height: 32px;}
+ p {line-height: 32px; margin-bottom: 1rem !important}
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
