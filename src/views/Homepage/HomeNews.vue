@@ -8,30 +8,30 @@
     <div class="row">
       <div class="col-md-6 col-xs-12">
         <div class="single-blog color-one">
-          <h5><a href="#" class="tran3s">Challange yourself to win the future</a></h5>
+          <h5><router-link tag="a" :to="{ name: 'blog-details', params: { slug: 'news-details' } }" class="tran3s">Challange yourself to win the future</router-link></h5>
           <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p>
-          <a href="#" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          <router-link tag="a" :to="{ name: 'blog-details', params: { slug: 'news-details' } }"  class="tran3s hvr-icon-wobble-horizontal">More Details <i class="flaticon-arrows" aria-hidden="true"></i></router-link>
         </div>
       </div>
       <div class="col-md-6 col-xs-12">
         <div class="single-blog color-two">
-          <h5><a href="#" class="tran3s">Challange yourself to win the future</a></h5>
+          <h5><router-link tag="a" :to="{ name: 'blog-details', params: { slug: 'news-details' } }"  class="tran3s">Challange yourself to win the future</router-link></h5>
           <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p>
-          <a href="#" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          <router-link tag="a" :to="{ name: 'blog-details', params: { slug: 'news-details' } }"  class="tran3s hvr-icon-wobble-horizontal">More Details <i class="flaticon-arrows" aria-hidden="true"></i></router-link>
         </div>
       </div>
       <div class="col-md-6 col-xs-12">
         <div class="single-blog color-three">
-          <h5><a href="#" class="tran3s">Challange yourself to win the future</a></h5>
+          <h5><router-link tag="a" :to="{ name: 'blog-details', params: { slug: 'news-details' } }"  class="tran3s">Challange yourself to win the future</router-link></h5>
           <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p>
-          <a href="#" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          <router-link tag="a" :to="{ name: 'blog-details', params: { slug: 'news-details' } }"  class="tran3s hvr-icon-wobble-horizontal">More Details <i class="flaticon-arrows" aria-hidden="true"></i></router-link>
         </div>
       </div>
       <div class="col-md-6 col-xs-12">
         <div class="single-blog color-four">
-          <h5><a href="#" class="tran3s">Challange yourself to win the future</a></h5>
+          <h5><router-link tag="a" :to="{ name: 'blog-details', params: { slug: 'news-details' } }"  class="tran3s">Challange yourself to win the future</router-link></h5>
           <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p>
-          <a href="#" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          <router-link tag="a" :to="{ name: 'blog-details', params: { slug: 'news-details' } }"  class="tran3s hvr-icon-wobble-horizontal">More Details <i class="flaticon-arrows" aria-hidden="true"></i></router-link>
         </div>
       </div>
     </div>

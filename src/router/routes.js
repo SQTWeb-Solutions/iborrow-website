@@ -46,13 +46,21 @@ export default [
     ]
   },
   {
-    path: 'blog',
+    path: '/blog',
     component: require('@/views/Blog/Template').default,
     children: [
       {
         path: '',
         name: 'blog',
         component: require('@/views/Blog/BlogPage').default,
+        meta: {
+          white: true
+        }
+      },
+      {
+        path: ':slug',
+        name: 'blog-details',
+        component: require('@/views/Blog/BlogDetails').default,
         meta: {
           white: true
         }
